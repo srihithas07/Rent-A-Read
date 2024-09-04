@@ -1,0 +1,133 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: garamond;
+    line-height: 1.6;
+    color: rgb(80, 9, 9);
+    background-image: url("backgnd.jpg");
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* for rent-a-read title */
+header {
+    background: #333;
+    color: bisque;
+    padding: 1rem 0;
+    font-family: garamond;
+}
+
+/* Rent-a-Read title text */
+header h1 {
+    margin: 0;
+    padding: 0.5rem;
+    background-image: url("left-header.jpg");
+    text-align: center;
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    display: inline-block; 
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+/* for the positions of home, catalog, etc., */
+nav ul {
+    list-style: none;
+    text-align: left;
+    margin-top: 1%;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Home, Catalog, About, Contact */
+nav ul li a {
+    color: #F5F5DC;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+/* book catalog container */
+.book-catalog {
+    background-color: rgba(69, 28, 28, 0.803);
+    padding: 2rem 0;
+    display: grid;
+    grid-row: auto;
+    gap: 1rem; 
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+/* available books title text */
+.book-catalog h2 {
+    font-family: garamond;
+    background-color: beige;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* book items */
+.book-item {
+    background: rgb(189, 155, 123);
+    padding: 1rem;
+    border: 2px solid #fff; 
+    text-align: center;
+    font-family: garamond;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+/* for the book cover images */
+.book-item img {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+/* decoration around book name */
+.book-item h3 {
+    margin: 0.2rem 0;
+    background-color: blanchedalmond;
+}
+
+/* rent now box */
+.book-item button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-family: garamond;
+}
+
+.book-item button:hover {
+    background: #555;
+    font-family: garamond;
+}
+
+/* copyright */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: garamond;
+}
